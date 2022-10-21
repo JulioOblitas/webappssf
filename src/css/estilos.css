@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+   }   
+   
+  h6, colora {
+    margin-right: 10px;  
+    width: 80px;
+      font-weight: bold;
+      color: aliceblue;
+      
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+ 
+     
+
+   
+.imglogocabecera, .imgbuscar{
+    height: 50px;
+    width: 50px;
+   
+ }
+
+ 
+
+ .imglogoempresa{
+    height: 120px;
+    width: 250px;
+    margin-left: 150px;
+
+ }
+
+ .RedesSociales{
+    margin-left: 830px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.h6Email {
+    margin-left: 8px;
+}
+.h6Telefono {
+    margin-left: 8px;
+}
+
+.Email{
+    
+    margin-left: 20px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.Telefono{
+
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+ header {
+  
+    background-image: radial-gradient(circle at 48.68% 65.04%, #dde7db 0, #d4e3d5 7.14%, #c8decf 14.29%, #b9d8c8 21.43%, #a8d1c2 28.57%, #94cabd 35.71%, #7cc1b8 42.86%, #60b8b4 50%, #3caeb2 57.14%, #00a5b2 64.29%, #009db3 71.43%, #0095b6 78.57%, #008db9 85.71%, #0087bc 92.86%, #0080bf 100%);
+    position: fixed;
+ }
+
+ .contenedorredessociales{    
+    display: flex; 
+    align-items: center;
+    
+ }
+
+
+ .contenedorbusqueda{
+    display: flex;    
+    height: 80px;
+}
+
+.Logo{
+    width: 200px;
+    display:flex;
+  
+    /*background-color:orange;*/
+}
+.Buscar{
+
+    margin-left: 150px; 
+    display:flex;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+
+
+.txtbuscar{
+  width: 450px;  
+  height: 40px; 
+  font-size:small;
+  margin-left: -15px; 
+  border-radius: 15px;
+  border-style:none;
+  border-color:red;
+  color:#7cc1b8;
+    font-weight: bold;
+  font-size: x-large;
+  
+
+  
+}
+.btnacceso{
+ margin-left: 60px;
+ border-radius: 10px;
+ color: white;
+ height: 50px;
+ width: 120px;
+ background-color: crimson;
+}
+
+.contenedorpie{
+    display: flex;
+  
+    height: 200px;     
+    
+    background-image: radial-gradient(circle at 48.68% 65.04%, #dde7db 0, #d4e3d5 7.14%, #c8decf 14.29%, #b9d8c8 21.43%, #a8d1c2 28.57%, #94cabd 35.71%, #7cc1b8 42.86%, #60b8b4 50%, #3caeb2 57.14%, #00a5b2 64.29%, #009db3 71.43%, #0095b6 78.57%, #008db9 85.71%, #0087bc 92.86%, #0080bf 100%);
+}
+
+.imgfooter{
+    height: 150px;
+    width: 150px;    
+ }
+
+ .imgreclamacion{
+    height: 80px;
+    width: 100px;    
+ }
+
+ .contenedorimagenpie{
+     display: flex;
+     width: 600px;
+        margin-left: 300px;
+
+     align-items: center;
+        justify-content: space-between;
+       
+ }
+ p {
+    color: #f5f5f6;
+    font-weight: bold;
+
+}
+.contenedor {
+    margin-top: 0;
+    display: flex;
+    height: 100%;
+    /*background-color: rgb(219, 237, 240);*/
+    background-color:  rgb(219, 237, 240);
+
+   /* background-image: radial-gradient(circle at 48.68% 65.04%, #dde7db 0, #d4e3d5 7.14%, #c8decf 14.29%, #b9d8c8 21.43%, #a8d1c2 28.57%, #94cabd 35.71%, #7cc1b8 42.86%, #60b8b4 50%, #3caeb2 57.14%, #00a5b2 64.29%, #009db3 71.43%, #0095b6 78.57%, #008db9 85.71%, #0087bc 92.86%, #0080bf 100%);*/
+    flex-direction: column;
+}
+
+
+
+.contenedorcarousel{
+ 
+    Height: 300px;
+    margin-left: 0; 
+    margin-top: 170px;
+    
+    display: flex;
+    width: 1341px;
+     position: relative;
+    background-image: radial-gradient(circle at 48.68% 65.04%, #dde7db 0, #d4e3d5 7.14%, #c8decf 14.29%, #b9d8c8 21.43%, #a8d1c2 28.57%, #94cabd 35.71%, #7cc1b8 42.86%, #60b8b4 50%, #3caeb2 57.14%, #00a5b2 64.29%, #009db3 71.43%, #0095b6 78.57%, #008db9 85.71%, #0087bc 92.86%, #0080bf 100%);
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    height: 100%;
+    margin-left: 0;  
+    margin-top: 10px;
+}
+
+
+.principaloperaciones{
+    
+    height: 800px;
+    margin-top: 200px;
+   
+    width: 1341px;
+    background-image: radial-gradient(circle at 48.68% 65.04%, #dde7db 0, #d4e3d5 7.14%, #c8decf 14.29%, #b9d8c8 21.43%, #a8d1c2 28.57%, #94cabd 35.71%, #7cc1b8 42.86%, #60b8b4 50%, #3caeb2 57.14%, #00a5b2 64.29%, #009db3 71.43%, #0095b6 78.57%, #008db9 85.71%, #0087bc 92.86%, #0080bf 100%);
+
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}   
+
+.principaloperacionesboton{
+        
+        height: 100px;
+        display: flex;
+        position: absolute;
+        width: 700px;
+        margin-left: 320px;
+        margin-top: 300px;
+        justify-content: center;
+        
+}   
+
+
+.btnoperacionusuario{    
+		width:  95%;
+        height: 35%;
+        color:blue;        
+       
+}
+
+.principalcategorias{
+
+    height: 800px;
+
+    width: 1341px;
+    justify-content: center;
+    background-color: rgb(219, 237, 240);
+}
+
+
+main {
+
+    height: 100%;
+    width: 100%;
+    /* trabaja en 2 dimensiones */
+    display: grid;
+    /* cuantas columnas quiero, explicito*/
+    grid-template-columns: repeat(5, 1fr);
+    /* No se exactamente cuantas filas tendre, implicito */
+    grid-auto-rows: 400px;
+    padding: 20px;
+    /* separación entre elementos de grid */
+    gap: 10px;
+    background-color: blueviolet;
+    
+    margin-top: 162px;
+    position: fixed;
+    overflow: scroll;
+    
+}
+
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    background-color: chartreuse;
+   height: 100%;
+    
+}
+
+.img-top {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit:cover;
+    overflow: hidden;
+  
+  
+
+}
+
+/*para formato svg
+.img-top:hover {
+   /* transform: scale(1.15);*/
+    /*transition: all 0.6s;
+  }*/
+  
+ 
+.text-bottom {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
+
+.text-bottom > * {
+    margin: 5px 0;
+}
+
+.prod-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-info button {
+    background-color: steelblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btnoperacion{
+    width:150px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+
+.title-product {
+    color: white;
+    position: relative;
+  }
+  
+  .title-product:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%);
+  }
+
+
+.divusuario{
+    margin-left: 270px;
+    margin-top: -5px;
+        
+}
+
+.cajastextodni {
+    width : 150px;
+    margin-left: 100px;
+}
+ 
+
+.cajastextoapellidos{
+    width : 330px;
+    margin-left: 60px;
+}
+.cajastextonombres{
+    width : 330px;
+    margin-left: 60px;
+}
+.cajastextoarea{
+    width : 200px;
+    margin-left: 95px;
+}
+.labelalinear  {
+    margin-left: 30px;
+}
+.btnalinear {
+
+    margin-left: 155px;
+    height: 35px;
+    
+}
+.btnbuscar {
+
+    margin-left: 320px;
+    margin-top: -105px;
+    height: 35px;
+    
+}
+
+.btntodos {
+
+    margin-left: 10px;
+    margin-top: -105px;
+    height: 35px;
+    
+}
+.tabladatos{
+    margin-left: 550px;
+    margin-top: -300px;
+}
+
+.portada{
+
+        height: 180px;
+    width: 210px;
+    margin-left: 800px;
+    margin-top: -200px;
+
+    
+}
+
+.imagenportada{
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+
+.colorletra{    
+      color: rgb(3, 26, 124);
+}
+.btnmargen{
+    margin-left: 112px;
+}
+
+.colorletraoc{
+    color: black;
+}
+
+.btncompraroc {
+    margin-left: -165px ;
+ margin-top: -660px ;
+}
+
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(90deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(90deg);}}
+
+  .imglogoefecto{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+
+.posnavbar{
+    height: 40px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  
+  background-size: 100%, 100%;
+   border-radius: 50%;
+  /* border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  
+ 
+  color:red;
+  margin-left: 100px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:red;
+  margin-right: 150px;
+ 
+}
+
+.carouselitem{
+    margin-top: 1px;
+
+}
+
+
+.cajasmes {
+    width : 150px;
+    text-align: right;
+}
+
+.etiquetagenerica{
+    margin-left: 8px;
+}
+.cajastextogenerico{
+    width: 250px;
+    margin-left: 12px;
+}
+
+.botongenerico{
+    margin-left: 165px;
+}
+
+/*estilos para formproductos*/
+
+.cajastextonombre{
+    width: 400px;
+    margin-left: 12px;
+    
+}
+.cajastextoprecio{
+    width: 100px;
+    margin-left: 28px;
+    text-align: right;
+}
+.cbogenerico{
+    width: 150px;
+    margin-left: 5px;
+}
+
+.filearchivo{
+    width: 200px;
+    margin-left: 23px;
+}
+
+.botonformprod{
+    width: 150px;
+    margin-left: 105px;
+}
+
+/*datos pedido*/
+
+.datospedido{
+    color: #008db9;
+
+}
+
+/*modal*/
+
+.modal{
+    background-color: tomato;
+    width: 100vw;
+    height: 100wv;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+    .modal_dialog{
+        background-color: blanchedalmond;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    }
+.modal-open {
+    display: flex;
+    
+}
+
+.botonpublicidad{
+    background-color: red;
+    color: aliceblue;
+}
+
+.datospedidos{
+    color: blue;
+    font-weight: bold;
+}
+
+.navbarrapers{
+    display:flex;
+    flex-direction: row;
+    align-items: center;      
+    background-color:black
+    /*background-image: radial-gradient(circle at 26.15% 45.8%, #ff7f18 0, #ff6b1d 16.67%, #fc4d1c 33.33%, #ee1919 50%, #df0019 66.67%, #d3001e 83.33%, #cc0026 100%);*/
+}
+
+.itemnavbarrapers{
+    
+    width: 800px;
+
+}
+
+/*datosusuarios*/
+.txtusuario{
+ margin-left: 50px ;
+}
+
+.txtcorreo{
+    margin-left: 55px;
+    width: 300px;
+   }
+.txtpassword{
+    margin-left: 33px;
+}
+
+.cbotipousuario{
+    margin-left: 83px;
+}
+.cbotipopermiso{
+    margin-left: 50px;
+}
+.btnusuario{
+    margin-left: 145px;
+}
+
+
+/*login*/
+.login{
+width: 1400px;
+height: 1200px;
+display: flex;
+position: relative;
+flex-direction: column;
+background-image: radial-gradient(circle at 26.15% 45.8%, #ff7f18 0, #ff6b1d 16.67%, #fc4d1c 33.33%, #ee1919 50%, #df0019 66.67%, #d3001e 83.33%, #cc0026 100%);
+color:  white;
+align-items: center;
+}
+
+.loginhijo{
+    position: absolute;
+    
+}
+.btnacceder {
+    width: 185px;
+    margin-top: -20px;
+}
+
+.txtloginpassword{
+    width: 185px;
+}
+.txtlogincorreo{
+    width: 350px;
+}
+
+.imgfondo{
+    border-radius: 12px;
+    margin-top: 10px;
+    height: 340px;
+    width: 650px;
+    
+}
+
+.imglogologin{
+    border-radius: 12px;
+    margin-top: -45px;
+    margin-left: -1000px;
+
+}
+
+/*clienne*/
+ .cajastextodoi{
+     width: 150px;
+     margin-left: 30px;
+ }
+
+ .cajastextorazonsocial{
+    width: 350px;
+    margin-left: 30px;
+}
+.cajastextodireccioncliente{
+    width: 350px;
+    margin-left: 58px;
+}
+
+.cajastextoemailcliente{
+    width: 350px;
+    margin-left: 95px;
+}
+.cajastextotelefonocliente{
+    width: 100px;
+    margin-left: 65px;
+}
+
+.btnguardarcliente{
+    width: 150px;
+    margin-left: 170px;
+}
+
+/*listado de clientes */
+.cajastextobuscardato{
+    margin-left: 15px;
+    color: #0080bf;
+    font-weight: bold;
+}
+.btnclientebuscar {
+    margin-left: 380px;
+    margin-top: -98px;
+    height: 29px;
+}
+.btnclientetodos {
+    margin-left: 10px;
+    margin-top: -98px;
+    height: 29px;
+}
+/*listado*/
+ .opcionesconsultar{
+    margin-top: -65px; 
+    margin-left: 800px;
+ }
